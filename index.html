@@ -5,121 +5,233 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
-        <section class="header_section">
-            <div class="header_section-contact">
-                <div class="header_section-contact-social">
-                    <p class="header_section-contact-text">Ми в соціальних мережах:</p>
-                    <ul class="header_section-contact-list">
-                        <li class="header_section-contact-element">
-                            <a href="" class="header_section-contact-element-link">
-                                1<!-- <svg></svg> -->
+        <div class="container-line"></div>
+        <div class="container">
+            <div class="header_section-contact-navigation">
+                <div class="header_section-contact">
+                    <div class="header_section-contact-social">
+                        <p class="header_section-contact-text">Ми в соціальних мережах:</p>
+                        <ul class="header_section-contact-list">
+                            <li class="header_section-contact-element">
+                                <a href="" class="header_section-contact-element-link">
+                                    <svg
+                                        width="40"
+                                        height="40"
+                                    >
+                                        <use href="./images/icons.svg#icon-Telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header_section-contact-element">
+                                <a href="" class="header_section-contact-element-link">
+                                    <svg
+                                        width="40"
+                                        height="40"
+                                    >
+                                        <use href="./images/icons.svg#icon-Facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header_section-contact-element">
+                                <a href="" class="header_section-contact-element-link">
+                                    <svg
+                                        width="40"
+                                        height="40"
+                                    >
+                                        <use href="./images/icons.svg#icon-Instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="+380991112233" class="header_section-contact-phone-link">
+                        <svg class="header_section-contact-phone-link-smartphone"
+                            width="24"
+                            height="24"
+                        >
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        (099) 111 22 33
+                        <svg class="header_section-contact-phone-link-chevron"
+                            width="24"
+                            height="24"
+                        >
+                            <use href="./images/icons.svg#icon-chevron"></use>
+                        </svg>
+                    </a>                    
+                </div>
+                <nav class="header_section-navigation">
+                    <ul class="header_section-navigation-list">
+                        <li class="header_section-navigation-list-link list-link_line">
+                            <a href="" class="header_section-navigation-list-link-element">
+                                ГОЛОВНА
                             </a>
                         </li>
-                        <li class="header_section-contact-element">
-                            <a href="" class="header_section-contact-element-link">
-                                2<!-- <svg></svg> -->
+                        <li class="header_section-navigation-list-link">
+                            <a href="" class="header_section-navigation-list-link-element">
+                                АКЦІЇ
                             </a>
                         </li>
-                        <li class="header_section-contact-element">
-                            <a href="" class="header_section-contact-element-link">
-                                3<!-- <svg></svg> -->
+                        <li class="header_section-navigation-list-link">
+                            <a href="" class="header_section-navigation-list-link-element">
+                                ДОСТАВКА ТА ОПЛАТА
+                            </a>
+                        </li>
+                        <li class="header_section-navigation-list-link">
+                            <a href="" class="header_section-navigation-list-link-element">
+                                ПРО НАС
+                            </a>
+                        </li>
+                        <li class="header_section-navigation-list-link">
+                            <a href="" class="header_section-navigation-list-link-element">
+                                КОНТАКТИ
                             </a>
                         </li>
                     </ul>
+                </nav>
+            </div>
+            <div class="header_section-list-icon-button">
+                <div class="header_section-list">
+                    <ul class="header_section-list-products">
+                        <li class="header_section-list-products-panel">
+                            <span class="header_section-list-products-panel-text">Дивани</span>
+                            <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
+                        </li>
+                        <li class="header_section-list-products-panel">
+                            <span class="header_section-list-products-panel-text">Ліжка</span>
+                            <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
+                        </li>
+                        <li class="header_section-list-products-panel">
+                            <span class="header_section-list-products-panel-text">Крісла</span>
+                            <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
+                        </li>
+                        <li class="header_section-list-products-panel">
+                            <span class="header_section-list-products-panel-text">Комоди</span>
+                            <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
+                        </li>
+                        <li class="header_section-list-products-panel">
+                            <span class="header_section-list-products-panel-text">Шафи</span>
+                            <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
+                        </li>
+                        <li class="header_section-list-products-panel">
+                            <span class="header_section-list-products-panel-text">Кухня</span>
+                            <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
+                        </li>
+                    </ul>
                 </div>
-                <div class="header_section-contact-phone">
-                    <a href="+380991112233">
-                        <!-- <svg></svg> -->
-                        (099) 111 22 33
-                        <!-- <svg></svg> -->
+                <div class="header_section-icon">
+                    <a href="" class="header_section-icon-link">
+                        <span class="header_section-icon-link-text">Furniture.test</span>
+                        <!-- <svg class="header_section-icon-link-icon"></svg> -->
                     </a>
                 </div>
+                <div class="header_section-button">
+                    <button class="header_section-button-basket">
+                        <!-- <svg class="header_section-button-basket-icon"></svg> -->
+                        <span class="header_section-button-basket-text">Кошик</span>
+                    </button>
+                    <button class="header_section-button-order">
+                        <span class="header_section-button-order-text">Замовити дзвінок</span>
+                    </button>
+                </div>
             </div>
-            <div class="header_section-navigation">
-                <ul class="header_section-navigation-list">
-                    <li class="header_section-navigation-list-link">
-                        <a href="" class="header_section-navigation-list-link-element">
-                            Головна
-                        </a>
-                    </li>
-                    <li class="header_section-navigation-list-link">
-                        <a href="" class="header_section-navigation-list-link-element">
-                            АкцІї
-                        </a>
-                    </li>
-                    <li class="header_section-navigation-list-link">
-                        <a href="" class="header_section-navigation-list-link-element">
-                            Доставка та оплата
-                        </a>
-                    </li>
-                    <li class="header_section-navigation-list-link">
-                        <a href="" class="header_section-navigation-list-link-element">
-                            Про нас
-                        </a>
-                    </li>
-                    <li class="header_section-navigation-list-link">
-                        <a href="" class="header_section-navigation-list-link-element">
-                            Контакти
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="header_section-list">
-                <ul class="header_section-list-products">
-                    <li class="header_section-list-products-panel">
-                        <span class="header_section-list-products-panel-text">Дивани</span>
-                        <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
-                    </li>
-                    <li class="header_section-list-products-panel">
-                        <span class="header_section-list-products-panel-text">Ліжка</span>
-                        <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
-                    </li>
-                    <li class="header_section-list-products-panel">
-                        <span class="header_section-list-products-panel-text">Крісла</span>
-                        <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
-                    </li>
-                    <li class="header_section-list-products-panel">
-                        <span class="header_section-list-products-panel-text">Комоди</span>
-                        <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
-                    </li>
-                    <li class="header_section-list-products-panel">
-                        <span class="header_section-list-products-panel-text">Шафи</span>
-                        <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
-                    </li>
-                    <li class="header_section-list-products-panel">
-                        <span class="header_section-list-products-panel-text">Кухня</span>
-                        <!-- <svg class="header_section-list-products-panel-icon"></svg> -->
-                    </li>
-                </ul>
-            </div>
-            <div class="header_section-icon">
-                <a href="" class="header_section-icon-link">
-                    <span class="header_section-icon-link-text">Furniture.test</span>
-                    <!-- <svg class="header_section-icon-link-icon"></svg> -->
-                </a>
-            </div>
-            <div class="header_section-button">
-                <button class="header_section-button-basket">
-                    <!-- <svg class="header_section-button-basket-icon"></svg> -->
-                    <span class="header_section-button-basket-text">Кошик</span>
-                </button>
-                <button class="header_section-button-order">
-                    <span class="header_section-button-order-text">Замовити дзвінок</span>
-                </button>
-            </div>
-        </section>
+        </div>
     </header>
     <main>
         <section class="slider">
-            <div class="slider_scrol">
+            <!-- <div class="slider_scrol">
 
+            </div> -->
+            <div class="container">
+                <div class="sldr">  
+                    <img src="images/background slider.jpg" alt="">
+                </div>
+                <div class="prv_b"></div>
+                <div class="nxt_b"></div>
             </div>
         </section>
-        <section class="benefits"></section>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages-title">Наші переваги</h2>
+                <div class="advantages-slider"></div>
+            </div>
+        </section>
+        <section class="product_categories">
+            <div class="container">
+                <h2 class="benefits-title">Категорія товарів</h2>
+                <div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <div></div>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div></div>
+                        </li>
+                    </ul>
+                </div>
+                <button>В каталог</button>
+            </div>
+        </section>
+        <section class="about_us">
+            <div class="container">
+                <h2 class="benefits-title">Про нас</h2>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <div class="container">
+                <h2 class="benefits-title">Залишились питання?</h2>
+                <div>
+                    <img src="" alt="">
+                    <form action=""></form>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="container">
+            <button class="button"></button>
+            <div>
+                <div></div>
+                <img src="" alt="">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
