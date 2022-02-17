@@ -1,0 +1,9 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-Group-1-1" viewBox="0 0 53 32">
+<path fill="#44c697" style="fill: var(--color1, #44c697)" d="M13.582 12.582h24.128v-3.405h-24.128v-5.745h24.128v-3.405h-25.986c-0.864 0-1.57 0.702-1.57 1.559v16.767h3.428v-5.771z"></path>
+<path fill="#1e2e36" style="fill: var(--color2, #1e2e36)" d="M41.636 0h-1.885v18.327h3.428v-16.767c0.026-0.858-0.68-1.56-1.544-1.56z"></path>
+<path fill="#1e2e36" style="fill: var(--color2, #1e2e36)" d="M45.901 11.932v9.099h-38.469v-9.099h-5.469c-0.003 0-0.006-0-0.009-0-1.078 0-1.952 0.873-1.954 1.95v5.173c0 1.092 0.89 1.95 1.963 1.95h1.256l0.55 6.394v4.601h1.413l1.649-4.601h39.673l1.649 4.601h1.413v-4.601l0.55-6.395h1.256c1.099 0 1.963-0.884 1.963-1.95v-5.172c0-1.092-0.89-1.95-1.963-1.95h-5.469z"></path>
+</symbol>
+</defs>
+</svg>
