@@ -319,4 +319,165 @@ img {
 }
 
 /* Наші переваги */
+.advantages {
+    margin-bottom: 100px;
+}
+.advantages-slider {
+    position: relative;
+}
+.advantages-slider-list {
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-slider-list-item {}
+.advantages-slider-list-link:hover,
+.advantages-slider-list-link:focus {
+    text-decoration: none;
+    display: block;
+    
+}
+.advantages-slider-list-link:hover .advantages-slider-list-link-box {
+    transform: translateY(0);
+}
+.advantages-slider-list-img-box {
+    position: relative;
+    overflow: hidden;
+}
+.advantages-slider-list-link-img {}
+.advantages-slider-list-link-box {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 100%;
+    
+    transform: translateY(47%);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.advantages-slider-list-link-box-title {
+    display: inline;
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 30px;
+    /* width: 100%; */
+    color: #FFFFFF;
+    border-bottom: 3px solid #44c698;
+}
+.advantages-slider-list-link-box-text {
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.advantages-slider-button {    
+    border: none;    
+}
+.button-left {
+    position: absolute;
+    left: 15px;
+    bottom: 160px;
+}
+.button-right {
+    position: absolute;
+    right: 15px;
+    bottom: 160px;
+}
 
+/* Категорія товарів */
+.product_categories-icon-list {
+    display: flex;
+    justify-content: center;
+}
+.product_categories-icon-list-item {
+    text-align: center;
+    margin-right: 200px;
+}
+.product_categories-icon-list-item-link {
+    text-decoration: none;
+    color: #1E2E36;
+}
+.is-active {
+    fill: #44C697;
+}
+.product_categories-icon-list-item:last-child {
+    margin-right: 0;
+}
+.product_categories-icon-list-item-text {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.is-active .product_categories-icon-list-item-text {
+    border-bottom: 3px solid #44C697;
+}
+
+.product_categories-article {
+    margin-top: 84px;
+}
+.product_categories-article-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    transition-property: transform;
+}
+.product_categories-article-list-icon {
+    margin-top: 50px;
+}
+.product_categories-article-list-icon:hover {
+    transform: scale(1.1);
+    transition-duration: 1000ms;
+    cursor: pointer;
+}
+.product_categories-article-list-icon:hover .product_categories-article-list-icon-text {
+    background-color: #44C697;
+    color: #ffffff;
+}
+.product_categories-article-list-icon:hover .product_categories-article-list-icon-text>p {
+    color: #ffffff;
+}
+.product_categories-article-list-icon:nth-child(-n + 3) {
+    margin-top: 0;
+}
+.product_categories-article-list-icon-img {
+    position: relative;
+}
+.product_categories-article-list-icon-new {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 18px;
+    padding: 5px 15px;
+    background-color: #1E2E36;
+    color: #ffffff;
+}
+.product_categories-article-list-icon-action {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    font-size: 18px;
+    padding: 5px 15px;
+    background-color: #FF1B1B;
+    color: #ffffff;
+}
+.product_categories-article-list-icon-text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+}
+.action-red {
+    color: #FF1B1B;
+    margin-left: auto;
+}
+.action {
+    font-weight: bold;
+    font-size: 18px;
+    color: #BCBDBB;
+    margin-left: 10px;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+}
