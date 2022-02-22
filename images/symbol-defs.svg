@@ -1,12 +1,10 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-Arrow-Left" viewBox="0 0 32 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1" d="M16 31c8.284 0 15-6.716 15-15s-6.716-15-15-15c-8.284 0-15 6.716-15 15s6.716 15 15 15z"></path>
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M12.478 15.87c0-0.21 0.079-0.421 0.235-0.582l4.92-5.047c0.143-0.148 0.344-0.24 0.566-0.24s0.423 0.092 0.566 0.24l0 0c0.145 0.15 0.235 0.355 0.235 0.581s-0.089 0.431-0.235 0.581l0-0-4.353 4.466 4.353 4.467c0.145 0.15 0.235 0.355 0.235 0.581s-0.089 0.431-0.235 0.581l0-0c-0.143 0.148-0.344 0.241-0.567 0.241s-0.423-0.092-0.566-0.24l-0-0-4.92-5.047c-0.145-0.149-0.234-0.353-0.234-0.578 0-0.002 0-0.003 0-0.005v0z"></path>
+<symbol id="icon-smartphone" viewBox="0 0 32 32">
+<path fill="#1E2E36" stroke="#ffffff" style="stroke: var(--color1, #ffffff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M22.667 2.667h-13.333c-1.473 0-2.667 1.194-2.667 2.667v0 21.333c0 1.473 1.194 2.667 2.667 2.667v0h13.333c1.473 0 2.667-1.194 2.667-2.667v0-21.333c0-1.473-1.194-2.667-2.667-2.667v0zM16 24h0.013"></path>
 </symbol>
-<symbol id="icon-Arrow-Right" viewBox="0 0 32 32">
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M16 32c8.836 0 16-7.164 16-16s-7.164-16-16-16c-8.836 0-16 7.164-16 16s7.164 16 16 16z"></path>
-<path fill="#1e2e36" style="fill: var(--color2, #1e2e36)" d="M19.757 15.861c0 0 0 0.001 0 0.001 0 0.24-0.096 0.458-0.251 0.617l0-0-5.248 5.385c-0.153 0.158-0.367 0.256-0.604 0.256s-0.451-0.098-0.604-0.256l-0-0c-0.155-0.16-0.25-0.379-0.25-0.62s0.095-0.459 0.25-0.62l-0 0 4.643-4.764-4.643-4.765c-0.155-0.16-0.25-0.379-0.25-0.62s0.095-0.459 0.25-0.62l-0 0c0.153-0.158 0.367-0.257 0.604-0.257s0.451 0.098 0.604 0.257l0 0 5.248 5.383c0.154 0.159 0.25 0.377 0.25 0.616 0 0.002 0 0.003 0 0.005v-0z"></path>
+<symbol id="icon-smartphone" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M22.667 2.667h-13.333c-1.473 0-2.667 1.194-2.667 2.667v0 21.333c0 1.473 1.194 2.667 2.667 2.667v0h13.333c1.473 0 2.667-1.194 2.667-2.667v0-21.333c0-1.473-1.194-2.667-2.667-2.667v0zM16 24h0.013"></path>
 </symbol>
 </defs>
 </svg>

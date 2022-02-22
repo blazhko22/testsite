@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
-</head>
+   </head>
 <body>
     <header class="header">
         <div class="container-line"></div>
@@ -200,96 +200,89 @@
     <main>
         <section class="slider">
             <div class="slider-background">  
-                    <img src="images/background slider.jpg" alt="">
+                <input class="slider__input" type="radio" id="btn-1" name="toggle" checked>
+                    <input class="slider__input" type="radio" id="btn-2" name="toggle">
+                    <input class="slider__input" type="radio" id="btn-3" name="toggle">
+                    <input class="slider__input" type="radio" id="btn-4" name="toggle">
+                    <div class="slider__inner">
+                        <div class="slider__slides">
+                            <img class="slider__img" src="images/background slider.jpg">
+                            <img class="slider__img" src="images/background slider.jpg">
+                            <img class="slider__img" src="images/background slider.jpg">
+                            <img class="slider__img" src="images/background slider.jpg">
+                        </div>
+                    </div>
             </div>
-            
-                <div class="slider_info">
-                    <h2 class="slider_info-title">Новинка!</h2>
-                    <div class="slider_info-box">
+            <div class="slider_info">
+                <h2 class="slider_info-title">Новинка!</h2>
+                <div class="slider_info-box">
                         <h3 class="slider_info-box-title">Ліжко Ornella</h3>
                         <p class="slider_info-box-text">Це новий рівень комфортного сну</p>
                         <button class="slider_info-box-btn">ДЕТАЛЬНІШЕ</button>  
-                    </div>
-                    <div class="slider_info-nav">
-                        <div class="slider_info-nav-box">
-                            <p class="slider_info-nav-counter">01</p>
-                            <p class="slider_info-nav-number">/04</p>
-                        </div>
-                        <div class="slider_info-nav-button">
-                            <button class="slider_info-nav-left">
-                                <svg
-                                    width="30"
-                                    height="30"
-                                >
-                                    <use href="./images/icons.svg#icon-Left"></use>
-                                </svg>
-                            </button>
-                            <button class="slider_info-nav-right">
-                                <svg
-                                    width="30"
-                                    height="30"
-                                >
-                                    <use href="./images/icons.svg#icon-Right"></use>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
                 </div>
-            
+                <div class="slider_info-nav">                      
+                    <label class="slider__label" for="btn-1"></label>
+                    <label class="slider__label" for="btn-2"></label>
+                    <label class="slider__label" for="btn-3"></label>
+                    <label class="slider__label" for="btn-4"></label>   
+                </div>
+            </div>            
         </section>
         <section class="advantages">
             <div class="container">
                 <div class="container-content">
-                    <h2 class="title">Наші переваги</h2>
+                    <h2 class="title"><span class="text__title"></span>Наші переваги</h2>
                     <div class="advantages-slider">
-                        <ul class="advantages-slider-list">
-                            <li class="advantages-slider-list-item">
-                                <a href="" class="advantages-slider-list-link">
-                                    <div class="advantages-slider-list-img-box">
-                                        <img class="advantages-slider-list-link-img" src="./images/Rectangle 172.jpg" alt="Меблі преміум класу">
-                                        <div class="advantages-slider-list-link-box">
-                                            <h4 class="advantages-slider-list-link-box-title">
-                                                Меблі преміум класу
-                                            </h4>
-                                            <p class="advantages-slider-list-link-box-text">
-                                                За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України
-                                            </p>
+                        <div class="advantages-slider-wrapper">
+                            <ul class="advantages-slider-list">
+                                <li class="advantages-slider-list-item">
+                                    <a href="" class="advantages-slider-list-link">
+                                        <div class="advantages-slider-list-img-box">
+                                            <img class="advantages-slider-list-link-img" src="./images/Rectangle 172.jpg" alt="Меблі преміум класу">
+                                            <div class="advantages-slider-list-link-box">
+                                                <h4 class="advantages-slider-list-link-box-title">
+                                                    Меблі преміум класу
+                                                </h4>
+                                                <p class="advantages-slider-list-link-box-text">
+                                                    За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="advantages-slider-list-item">
-                                <a href="" class="advantages-slider-list-link">
-                                    <div class="advantages-slider-list-img-box">
-                                        <img class="advantages-slider-list-link-img" src="./images/Rectangle 169.jpg" alt="Надійні партнери">
-                                        <div class="advantages-slider-list-link-box">
-                                            <h4 class="advantages-slider-list-link-box-title">
-                                                Надійність
-                                            </h4>
-                                            <p class="advantages-slider-list-link-box-text">
-                                                За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України
-                                            </p>
+                                    </a>
+                                </li>
+                                <li class="advantages-slider-list-item">
+                                    <a href="" class="advantages-slider-list-link">
+                                        <div class="advantages-slider-list-img-box">
+                                            <img class="advantages-slider-list-link-img" src="./images/Rectangle 169.jpg" alt="Надійні партнери">
+                                            <div class="advantages-slider-list-link-box">
+                                                <h4 class="advantages-slider-list-link-box-title">
+                                                    Надійність
+                                                </h4>
+                                                <p class="advantages-slider-list-link-box-text">
+                                                    За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="advantages-slider-list-item">
-                                <a href="" class="advantages-slider-list-link">
-                                    <div class="advantages-slider-list-img-box">
-                                        <img class="advantages-slider-list-link-img" src="./images/Rectangle 170.jpg" alt="Безкоштовна доставка">
-                                        <div class="advantages-slider-list-link-box">
-                                            <h4 class="advantages-slider-list-link-box-title">
-                                                Безкоштовна доставка
-                                            </h4>
-                                            <p class="advantages-slider-list-link-box-text">
-                                                За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України
-                                            </p>
+                                    </a>
+                                </li>
+                                <li class="advantages-slider-list-item">
+                                    <a href="" class="advantages-slider-list-link">
+                                        <div class="advantages-slider-list-img-box">
+                                            <img class="advantages-slider-list-link-img" src="./images/Rectangle 170.jpg" alt="Безкоштовна доставка">
+                                            <div class="advantages-slider-list-link-box">
+                                                <h4 class="advantages-slider-list-link-box-title">
+                                                    Безкоштовна доставка
+                                                </h4>
+                                                <p class="advantages-slider-list-link-box-text">
+                                                    За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                        <button class="advantages-slider-button button-left">
+                                    </a>
+                                </li>                                
+                            </ul>
+                        </div>
+                        <button href="" class="advantages-slider-button button-left" data-slide="prev">
                             <svg
                                 width="30"
                                 height="30"
@@ -297,12 +290,12 @@
                                 <use href="./images/icons.svg#icon-Arrow-Left"></use>
                             </svg>
                         </button>
-                        <button class="advantages-slider-button button-right">
+                        <button href="" class="advantages-slider-button button-right" data-slide="next">
                             <svg
                                 width="30"
                                 height="30"
                             >
-                                <use href="./images/icons.svg#Arrow-Right"></use>
+                                <use href="./images/icons.svg#icon-Arrow-Right"></use>
                             </svg>
                         </button>
                     </div>
@@ -312,7 +305,7 @@
         <section class="product_categories">
             <div class="container">
                 <div class="container-content">
-                    <h2 class="title">Категорія товарів</h2>
+                    <h2 class="title"><span class="text__title"></span>Категорія товарів</h2>
                     <div class="product_categories-icon">
                         <ul class="product_categories-icon-list">
                             <li class="product_categories-icon-list-item">
@@ -472,7 +465,7 @@
         <section class="about_us">
             <div class="container">
                 <div class="about_us-container">
-                    <h2 class="title">Про нас</h2>
+                    <h2 class="title"><span class="text__title"></span>Про нас</h2>
                     <div class="about_us-box-bg">
                         <img class="about_us-box-bg-img" src="./images/Rectangle174.jpg" alt="">
                     </div>
@@ -489,7 +482,7 @@
         <section class="feedback">
             <div class="container">
                 <div class="feedback-container">
-                    <h2 class="title">Залишились питання?</h2>
+                    <h2 class="title"><span class="text__title"></span>Залишились питання?</h2>
                     <div class="feedback-box-bg">
                         <img class="feedback-box-bg-img" src="./images/Rectangle 175.jpg" alt="">
                     </div>
@@ -517,10 +510,10 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <a class="footer-button">
+            <a href="#" class="footer-button">
                 <svg class="footer-button-svg"
-                    width="50"
-                    height="50"
+                    width="80"
+                    height="80"
                 >
                     <use href="./images/icons.svg#icon-button-top"></use>
                 </svg>
@@ -541,12 +534,108 @@
                             </span>
                         </a>
                     </div>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <div class="footer-box-info-nav">
+                        <ul class="footer-box-info-nav-roster">
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                Дивани
+                            </li>
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                Ліжка
+                            </li>
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                Крісла
+                            </li>
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                Шафи
+                            </li>
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                Кухні
+                            </li>
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                Комоди
+                            </li>
+                        </ul>
+                        <ul class="footer-box-info-nav-list">
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                АКЦІЇ
+                            </li>
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                доставка
+                            </li>
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                Про нас
+                            </li>
+                            <li class="footer-box-info-nav-roster-item">
+                                <span class="footer-box-info-nav-roster-item-line">—</span>
+                                Контакти
+                            </li>
+                        </ul>
+                        <div class="footer-box-info-nav-contact">
+                            <ul class="footer-box-info-nav-contact-list">
+                                <li class="footer-box-info-nav-contact-list-item">
+                                    <a class="footer-box-info-nav-contact-list-item-link" href="">
+                                       <svg class="footer-box-info-nav-contact-list-item-link-icon" width="24" height="24">
+                                            <use href="./images/icons.svg#icon-map-pin"></use>
+                                        </svg> 
+                                        TEST
+                                    </a>
+                                </li>
+                                <li class="footer-box-info-nav-contact-list-item">
+                                    <a class="footer-box-info-nav-contact-list-item-link" href="">
+                                        <svg class="footer-box-info-nav-contact-list-item-link-icon" width="24" height="24">
+                                            <use href="./images/icons.svg#icon-calendar"></use>
+                                        </svg>
+                                        Пн-Пт, з 10 до 18
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="footer-box-info-nav-contact-block">  
+                                <svg class="footer-box-info-nav-contact-block-icon" width="24" height="24">
+                                    <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                                </svg>
+                                <div class="footer-box-info-nav-contact-block-box">
+                                    <a class="footer-box-info-nav-contact-block-box-link" href="tel:+380991112233">(099) 111 22 33</a>
+                                    <a class="footer-box-info-nav-contact-block-box-link" href="tel:+380992223344">(099) 222 33 44</a> 
+                                </div>                                                                  
+                            </div>  
+                            <div class="footer-box-info-nav-contact-box">
+                                <h5 class="footer-box-info-nav-contact-box-title"></h5>
+                                <ul class="footer-box-info-nav-contact-box-list">
+                                    <li class="footer-box-info-nav-contact-box-list-item">
+                                        <a href=""></a>
+                                    </li>
+                                    <li class="footer-box-info-nav-contact-box-list-item">
+                                        <a href=""></a>
+                                    </li>
+                                    <li class="footer-box-info-nav-contact-box-list-item">
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div></div>
+                    <div class="footer-box-info-block">
+                        <ul class="footer-box-info-block-list">
+                            <li class="footer-box-info-block-list-item">
+                                <p class="footer-box-info-block-list-item-text">&copy; ТОВ Furniture, працюємо з 2006 року</p>
+                            </li>
+                            <li class="footer-box-info-block-list-item">
+                                <svg class="footer-box-info-block-list-item-icon" width="16" height="12">
+                                    <use href="./images/icons.svg#icon-glyanec"></use>
+                                </svg>
+                                Глянець — розробка інтернет-магазинів
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="footer-box-img">
                    <img src="./images/Rectangle 176.jpg" alt="">   
