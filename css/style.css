@@ -36,6 +36,11 @@ ul {
 }
 
 .container {
+    max-width: 1920px;
+    padding: 0;
+    margin: 0 auto;
+}
+.container-content {
     max-width: 1818px;
     padding: 0 15px;
     margin: 0 auto;
@@ -48,7 +53,8 @@ h4,
 h5,
 h6,
 p,
-span {
+span,
+pre {
     margin: 0;
 }
 
@@ -59,6 +65,11 @@ img {
 }
 
 .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 20px solid #44C697;
+    height: 50px;
     font-weight: 700;
     font-size: 48px;
     text-align: center;
@@ -185,6 +196,7 @@ img {
 }
 .header_section-icon-link-icon {
     margin-right: 15px;
+    fill: #1e2e36;
 }
 .header_section-icon-link-text {
     
@@ -385,6 +397,9 @@ img {
 }
 
 /* Категорія товарів */
+.product_categories {
+    margin-bottom: 100px;
+}
 .product_categories-icon-list {
     display: flex;
     justify-content: center;
@@ -480,4 +495,146 @@ img {
     margin-left: 10px;
     text-decoration-line: line-through;
     text-transform: uppercase;
+}
+.product_categories-button {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 190px;
+    height: 51px;
+    margin-top: 50px;
+    background-color: #44C697;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    margin-left: 800px;
+}
+
+/* Про нас */
+.about_us {
+    margin-bottom: 100px;
+}
+.about_us-container {
+    position: relative;
+}
+.about_us-box-bg-img {
+    margin-left: auto;
+}
+.about_us-box-text {
+    position: absolute;
+    top: 210px;
+    left: 0;
+    width: 791px;
+    background-color: #ffffff;
+    border-right: 15px solid #44C697;
+    padding: 50px 40px 50px 50px;
+}
+.about_us-box-text-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.about_us-box-text-content-indent {
+    display: block;
+    white-space: inherit;
+    margin-bottom: 15px;
+}
+.about_us-box-text-content-indent-green {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #44C697;
+}
+.about_us-box-text-content-indent-last {
+    display: block;
+    white-space: inherit;
+}
+
+/* Залишити питання */
+.feedback {
+    margin-bottom: 100px;
+}
+.feedback-container {
+    position: relative;
+}
+.feedback-block {
+    position: absolute;
+    top: 210px;
+    right: 0;
+    width: 540px;
+    background-color: #ffffff;
+    border-left: 15px solid #44C697;
+    padding: 50px 50px 50px 40px;
+}
+.feedback-from-title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.feedback-from-box {
+    margin-bottom: 15px;
+}
+.feedback-from-label {
+    font-weight: normal;
+    font-size: 18px;
+}
+.feedback-from-input {
+    width: 432px;
+    height: 51px;
+    padding: 15px;
+}
+.feedback-from-button {
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    width: 432px;
+    height: 51px;
+    background-color: #44C697;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.feedback-from-text {
+    font-weight: normal;
+    font-size: 18px;
+}
+.feedback-from-text-tel {
+    font-weight: bold;
+}
+
+/* Футер */
+.footer {
+    position: relative;
+}
+.footer-button {
+    position: absolute;
+    top: -16px;
+    left: 65px;
+
+    cursor: pointer;
+}
+.footer-box {
+    display: flex;
+}
+.footer-box-info {
+    width: 831px;
+    background-color: #1E2E36;
+}
+.footer-box-info-icon {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.footer-box-info-icon-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 36px;
+    color: #44C697;
+}
+.footer-box-info-icon-svg {
+    fill: #ffffff;
+}
+.footer-box-info-icon-link-text {
+    color: #FFFFFF;
 }
