@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #1E2E36;
+    font-family: Proxima Nova Bold, sans-serif;
+    font-weight: 700;
+    line-height: 125%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container_content {
+    max-width: 1920px;
+    // margin: 0 auto;
+    // @media screen and (min-width: 768px) {
+    //     width: 100;
+    // }
+    // width: 100%;
+    // .container {
+    //     max-width: 1200px;
+    //     padding: 0 15px;
+    //     
+    
+        // @media screen and (min-width: 480px) {
+        //     width: 480px;
+        // }
+        // @media screen and (min-width: 768px) {
+        //     width: 768px;
+        // }
+        // @media screen and (min-width: 1366px) {
+        //     width: 1366px;
+        // }
+    // }
+}
+.container { 
+    position: relative;   
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 480px) {
+        width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    @media screen and (min-width: 768px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    @media screen and (min-width: 1366px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media screen and (min-width: 1440px) {
+        padding-left: 51px;
+        padding-right: 51px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+pre {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+
+    // @media screen and (min-width: 768px) {
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
+    // @media screen and (min-width: 1366px) {
+    //     padding-left: 25px;
+    //     padding-right: 25px;
+    // }
+    // @media screen and (min-width: 1366px) {
+    //     padding-left: 51px;
+    //     padding-right: 51px;
+    // }
+}
+.text__title {
+    display: block;
+    width: 20px;
+    height: 50px;
+    border-left: 20px solid #44C697;
+    margin-right: -15px;
+
+    // @media screen and (min-width: 768px) {
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
+    // @media screen and (min-width: 1366px) {
+    //     padding-left: 25px;
+    //     padding-right: 25px;
+    // }
+    // @media screen and (min-width: 1366px) {
+    //     padding-left: 51px;
+    //     padding-right: 51px;
+    // }
+}
