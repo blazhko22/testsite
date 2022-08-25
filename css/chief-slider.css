@@ -17,10 +17,11 @@
 .slider__control {
   position: absolute;
   top: 50%;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
+  width: 50px;
   color: #fff;
   text-align: center;
   height: 50px;

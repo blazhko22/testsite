@@ -8,15 +8,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (min-width: 1366px) {
+        flex-direction: row;
+    }
 }
 .header_section-contact-social {
     display: flex;
     align-items: center;
-    // margin-right: 50px;
+    @media screen and (min-width: 1366px) {
+        margin-right: 50px;
+    }
 }
 .header_section-contact-text {
     font-size: 12px;
     margin-right: 5px;
+    @media screen and (min-width: 1366px) {
+        font-size: 18px;
+    }
 }
 .header_section-contact-list {
     display: flex;
@@ -32,6 +40,10 @@
     & svg {
        transition-duration: 250ms;
        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+       @media screen and (min-width: 1366px) {
+            width: 40px;
+            height: 40px;
+       }
     }
     &:hover svg,
     &:focus svg {
@@ -55,11 +67,18 @@
         fill: #44C697;
         color: #44C697;
     }
+    @media screen and (min-width: 1366px) {
+        font-size: 18px;
+    }
 }
 .header_section-contact-phone-link-smartphone {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 5px;
+    @media screen and (min-width: 1366px) {
+        width: 24px;
+        height: 24px;
+    }
 }
 .header_section-contact-phone-link-chevron {
     transition-duration: 250ms;
