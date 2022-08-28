@@ -2260,7 +2260,7 @@ p.ism-badge a.ism-link:hover {
 
 .advantages-slider-list-link-box {
   position: absolute;
-  top: 35px;
+  top: 40px;
   left: 0;
   width: 100%;
   -webkit-transform: translateY(70%);
