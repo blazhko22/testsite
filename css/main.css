@@ -2187,12 +2187,38 @@ p.ism-badge a.ism-link:hover {
 
 .advantages {
   display: none;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .advantages {
     display: block;
+    width: 768px;
     margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .advantages {
+    width: 1024px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .advantages {
+    width: 1366px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .advantages {
+    width: 1440px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .advantages {
+    width: 1920px;
   }
 }
 

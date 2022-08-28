@@ -1,9 +1,23 @@
 .advantages {
   display: none;
+  margin: 0 auto;
   @media screen and (min-width: 768px) {
     display: block;
+    width: 768px;
     margin-top: 50px;
-}
+  }
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+  }
+  @media screen and (min-width: 1366px) {
+    width: 1366px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+  }
 }
 .advantages-slider {
   position: relative;
