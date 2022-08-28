@@ -1,6 +1,5 @@
 .about_us {
     display: none;
-    // margin-bottom: 100px;
     @media screen and (min-width: 1366px) {
         display: block;
         margin-top: 50px;
@@ -20,8 +19,8 @@
     top: 210px;
     left: 0;
     width: 791px;
-    background-color: #ffffff;
-    border-right: 15px solid #44C697;
+    background-color: $primary-bg-color;
+    border-right: 15px solid $secondary-bg-color;
     padding: 50px 40px 50px 50px;
 }
 .about_us-box-text-content {
@@ -37,7 +36,7 @@
 .about_us-box-text-content-indent-green {
     font-weight: bold;
     text-transform: uppercase;
-    color: #44C697;
+    color: $secondary-bg-color;
 }
 .about_us-box-text-content-indent-last {
     display: block;

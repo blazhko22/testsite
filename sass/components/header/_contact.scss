@@ -47,7 +47,7 @@
     }
     &:hover svg,
     &:focus svg {
-        fill: #44C697;
+        fill: $secondary-bg-color;
     }
 }
 .header_section-contact-phone-link {
@@ -56,7 +56,7 @@
     text-decoration: none;
     font-size: 12px;
     text-transform: uppercase;
-    color: #1E2E36;
+    color: $primary-text-color;
     cursor: pointer;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -64,8 +64,8 @@
     &:hover,
     &:focus
      {
-        fill: #44C697;
-        color: #44C697;
+        fill: $secondary-bg-color;
+        color: $secondary-bg-color;
     }
     @media screen and (min-width: 1366px) {
         font-size: 18px;

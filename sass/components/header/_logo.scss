@@ -7,19 +7,19 @@
     align-items: center;
     text-decoration: none;
     font-size: 25px;
-    color: #44C697;
+    color: $secondary-bg-color;
     @media screen and (min-width: 1920px) {
         font-size: 36px;
     }
 }
 .header_section-icon-link-logo {
     margin-right: 15px;
-    fill: #1e2e36;
+    fill: $primary-text-color;
     @media screen and (min-width: 1920px) {
         width: 125px;
         height: 75px;
     }
 }
 .header_section-icon-link-text {
-    color: #1E2E36;
+    color: $primary-text-color;
 }
